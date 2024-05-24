@@ -1,0 +1,90 @@
+.Projects {
+    border-bottom:1px solid rgba(73, 73, 73, 0.557) ;
+    padding: 80px 0; 
+
+}
+
+
+
+
+.Projects .Projects-box{
+    background-color: #212121;
+    border: #2E2D2D 2px solid;
+padding: 32px;
+border-radius: 40px;
+
+}
+
+
+.Projects .Projects-box .box-texts span{
+    color: #7A7A7A;
+    font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-size: 12px;
+}
+
+.Projects .Projects-box .box-texts h4{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 8px 0 0 0 ;  
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Projects .Projects-box .box-texts img{
+    width: 44px;
+    height: 32px; 
+}
+
+.Projects .Projects-box .box-texts{
+    margin-top: 16px;
+
+}
+
+.Projects button{
+    padding: 14px 28px;
+    border-radius: 12px;
+    border: 1px #999999  solid;
+    margin-top: 32px;
+    background-color: transparent;
+    margin-right: 320px;
+
+
+
+}
+
+.Projects button a{
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+
+}
+
+.Projects button i{
+    font-size: 24px;
+    color: white;
+    line-height: 0;
+ 
+ }
+
+ 
+ @media (max-width: 768px) {
+    .Projects .Projects-box{
+        max-width: 437px;
+    margin: auto;
+    }
+
+   .Projects .left-conten p{
+        margin: 20px 0 0 0;
+     
+     }
+
+     .Projects {
+        padding: 40px 0; 
+    
+    }
+
+    .Projects button{
+        margin-right: unset;
+    }
+ } 

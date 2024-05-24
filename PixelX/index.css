@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+.container {
+    max-width: 100%;
+    width: 1475px;
+}
+
+/* prefix start*/
+
+.prefix {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.left-conten p {
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 64px 0 0 0;
+    padding: 0 30px;
+
+}
+
+
+.prefix h3 {
+    font-size: 48px;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+.prefix img {
+    width: 32px;
+    height: 32px;
+}
+
+/* prefix end*/
+
+@media (max-width: 768px) {
+    .prefix {
+        justify-content: center;
+    }
+
+    .left-conten p {
+        text-align: center;
+    
+    }
+}

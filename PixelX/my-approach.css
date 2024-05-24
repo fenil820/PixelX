@@ -1,0 +1,85 @@
+.my-approach {
+    border-bottom:1px solid rgba(73, 73, 73, 0.557) ;
+    padding: 80px 0; 
+
+}
+
+
+.my-approach .Projects-box{
+    background-color: #212121;
+    border: #2E2D2D 2px solid;
+padding: 48px;
+border-radius: 40px;
+
+}
+
+.my-approach .Projects-box h4{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    padding: 16px 0 8px 0;
+    margin: 0;
+font-weight: 400;
+}
+
+.my-approach .Projects-box p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 27px;
+    max-width: 330px;
+}
+
+
+.my-approach button{
+    padding: 14px 28px;
+    border-radius: 12px;
+    border: 1px #999999  solid;
+    margin-top: 32px;
+    background-color: transparent;
+    margin-right: 320px;
+
+
+
+}
+
+.my-approach button a{
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+
+}
+
+.my-approach button i{
+    font-size: 24px;
+    color: white;
+    line-height: 0;
+ 
+ }
+
+
+
+
+ 
+@media (max-width: 768px) {
+    .my-approach .Projects-box{
+        max-width: 437px;
+    margin: auto;
+    }
+
+   .my-approach  .left-conten p{
+        margin: 20px 0 0 0;
+     
+     }
+
+    .my-approach {
+        padding: 40px 0; 
+    
+    }
+
+    .my-approach button{
+        margin-right: unset;
+    }
+    
+ } 

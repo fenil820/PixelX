@@ -1,0 +1,87 @@
+ .header {
+     max-width: 100%;
+     padding: 48px 0;
+     display: flex;
+     align-items: center;
+ }
+
+
+ .menu {
+     gap: 36px;
+ }
+
+ @media (max-width: 768px) {
+    
+ .menu {
+    gap: 26px;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+ }
+
+ .header ul li {
+     list-style: none;
+ }
+
+ .header ul li a {
+     color: rgb(131, 131, 131);
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+     display: flex;
+     justify-content: center;
+     text-decoration: none;
+ }
+
+ .header ul li a:hover {
+     color: rgb(255, 255, 255);
+     text-decoration: underline;
+     text-underline-offset: 10px;
+     text-decoration-thickness: 2px;
+     transition: 0.8s;
+ }
+
+ .header .active {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+
+ .header .button a {
+     background-color: #383838;
+     font-size: 18px;
+     color: white;
+     padding: 10px 32px;
+     text-decoration: none;
+     border-radius: 12px;
+ }
+
+ .header .button a:hover {
+ border: 1px solid white;
+ transition: 0.6s;
+ background-color: transparent;
+}
+
+
+
+ .header button i {
+     color: rgb(255, 255, 255);
+     font-size: 32px;
+ }
+
+ .header-toggler ul li a{
+    justify-content: unset;
+ }
+
+
+ .offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 230px;
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    transform: translateX(100%);
+}
